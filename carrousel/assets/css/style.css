@@ -1,0 +1,22 @@
+:root {
+  --white: #fafafa;
+  --black-bg: #1c1c1c;
+  --black-menu: #29292b
+
+  --font: "Poppins", sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+body {
+  font-family: var(--font);
+}
