@@ -1,22 +1,119 @@
-:root {
-  --white: #fafafa;
-  --black-bg: #1c1c1c;
-  --black-menu: #29292b
-
-  --font: "Poppins", sans-serif;
-}
-
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 button {
   background: none;
   border: none;
+  cursor: pointer;
 }
 
-body {
-  font-family: var(--font);
+a {
+  text-decoration: none;
+  color: inherit;
 }
+
+/*
+$white: #fafafa;
+$black-bg: #1c1c1c;
+$black-menu: #29292b;
+*/
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(30, 30, 30);
+  color: #fafafa;
+  font-size: 14px;
+}
+
+/*
+$white: #fafafa;
+$black-bg: #1c1c1c;
+$black-menu: #29292b;
+*/
+/*
+$white: #fafafa;
+$black-bg: #1c1c1c;
+$black-menu: #29292b;
+*/
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(30, 30, 30);
+  color: #fafafa;
+  font-size: 14px;
+}
+
+header {
+  width: 390px;
+  height: 60px;
+  margin: 0 auto;
+  padding: 15px 20px;
+  background-color: #29292b;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+header div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+header img {
+  height: 30px;
+}
+
+/*
+$white: #fafafa;
+$black-bg: #1c1c1c;
+$black-menu: #29292b;
+*/
+/*
+$white: #fafafa;
+$black-bg: #1c1c1c;
+$black-menu: #29292b;
+*/
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(30, 30, 30);
+  color: #fafafa;
+  font-size: 14px;
+}
+
+main {
+  background-color: #1c1c1c;
+  width: 390px;
+  margin: 0 auto;
+}
+
+section {
+  margin-bottom: 18px;
+}
+
+section p {
+  padding: 12px 20px;
+}
+
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+img {
+  height: 400px;
+}
+
+button img {
+  margin: 10px;
+  width: 25px;
+  height: 25px;
+}
+
+/*# sourceMappingURL=style.css.map */
